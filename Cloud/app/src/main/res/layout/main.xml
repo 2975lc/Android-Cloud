@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlueRinsing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1">
+    <TextView
+        android:id="@+id/text"
+        android:text="time"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="61.8%"
+        app:layout_widthPercent="100%"/>
+    <Button
+        android:id="@+id/start"
+        android:text="开始"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/text"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"/>
+    <Button
+        android:id="@+id/stop"
+        android:text="停止"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/start"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"/>
+</androidx.percentlayout.widget.PercentRelativeLayout>

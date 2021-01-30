@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cover_icon"
+        android:src="@drawable/cover"
+        android:layout_alignBottom="@+id/cover_occupy"
+        android:layout_width="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="61.8%"/>
+    <TextView
+        android:id="@+id/cover_occupy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="61.8%"
+        app:layout_widthPercent="100%"/>
+    <TextView
+        android:id="@+id/cover_text"
+        android:text="云端自习"
+        android:textSize="50dp"
+        android:textColor="@color/colorBlueFalls"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cover_occupy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.percentlayout.widget.PercentRelativeLayout>
